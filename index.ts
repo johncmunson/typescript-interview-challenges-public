@@ -1,3 +1,35 @@
+// ██████╗     ██╗    ██████╗     ███████╗     ██████╗    ████████╗    ██╗     ██████╗     ███╗   ██╗    ███████╗
+// ██╔══██╗    ██║    ██╔══██╗    ██╔════╝    ██╔════╝    ╚══██╔══╝    ██║    ██╔═══██╗    ████╗  ██║    ██╔════╝
+// ██║  ██║    ██║    ██████╔╝    █████╗      ██║            ██║       ██║    ██║   ██║    ██╔██╗ ██║    ███████╗
+// ██║  ██║    ██║    ██╔══██╗    ██╔══╝      ██║            ██║       ██║    ██║   ██║    ██║╚██╗██║    ╚════██║
+// ██████╔╝    ██║    ██║  ██║    ███████╗    ╚██████╗       ██║       ██║    ╚██████╔╝    ██║ ╚████║    ███████║
+// ╚═════╝     ╚═╝    ╚═╝  ╚═╝    ╚══════╝     ╚═════╝       ╚═╝       ╚═╝     ╚═════╝     ╚═╝  ╚═══╝    ╚══════╝
+//
+//
+//    *** Your goal is to get as many tests in `index.test.ts` to pass as possible
+//
+//    *** Get the tests to pass by filling out the functions below
+//
+//    *** You are encouraged to brainstorm with the other developers in the room
+//
+//    *** Workflow:
+//          1. Open the terminal and run `npm run test:watch`
+//          2. Uncomment the `describe` block for the function you are working on
+//          3. Get the types / function signature correct so that the tests will run
+//          4. Fill out the function body so that the tests pass
+//          5. Move on to the next function
+//
+//
+// █████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗█████╗
+// ╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝╚════╝
+//
+//
+//
+// 0. FREEBIE: Write a function called `add` that returns the sum of two numbers
+export const add = (a: number, b: number) => {
+  return a + b
+}
+
 // 1. Write a function called `compact` that removes all falsy values from an array
 export const compact = () => {}
 

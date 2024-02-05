@@ -1,15 +1,24 @@
 import {
+  add,
   compact,
-  // sumValues,
-  // addOrRemove,
-  // chunk,
-  // arrayDifference,
-  // isPalindrome,
-  // getAllKeys,
-  // Calculator,
-  // sleep,
-  // memoize,
+  sumValues,
+  addOrRemove,
+  chunk,
+  arrayDifference,
+  isPalindrome,
+  getAllKeys,
+  Calculator,
+  sleep,
+  memoize,
 } from './index'
+
+describe('0. add', () => {
+  it('returns the sum of two numbers', () => {
+    expect(add(1, 2)).toEqual(3)
+    expect(add(0, -1)).toEqual(-1)
+    expect(add(0, 0)).toEqual(0)
+  })
+})
 
 // describe('1. compact', () => {
 //   it('takes an array with falsy values and returns a new array with the falsy values removed', () => {
