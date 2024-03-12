@@ -12,6 +12,10 @@
 //
 //    *** You are encouraged to brainstorm with the other developers in the room
 //
+//    *** Using Google is allowed, but please refrain from searching for the direct answers
+//
+//    *** NO CHATGPT! (or Github Copilot, or any other AI/ML model that writes code for you)
+//
 //    *** Workflow:
 //          1. Open the terminal and run `npm run test:watch`
 //          2. Uncomment the `describe` block for the function you are working on
