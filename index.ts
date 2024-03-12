@@ -42,10 +42,12 @@ export const sumValues = () => {}
 //    The array can contain primitive data types, but not objects or arrays.
 export const addOrRemove = () => {}
 
-// 4. Write a function called `chunk` that accepts an array and splits it into groups of length `size`. If the array can't be split evenly, the final chunk will be the remaining elements.
+// 4. Write a function called `chunk` that accepts an array and splits it into groups of length `size`. If the array can't be
+//    split evenly, the final chunk will be the remaining elements.
 export const chunk = () => {}
 
-// 5. Write a function called `arrayDifference` that returns all the values from the first array that are not present in any of the other provided arrays
+// 5. Write a function called `arrayDifference` that returns all the values from the first array that are not present in any
+//    of the other provided arrays
 export const arrayDifference = () => {}
 
 // 6. Write a function called `isPalindrome` that returns true if a string is a palindrome, and false otherwise
@@ -69,5 +71,5 @@ export class Calculator {}
 // 9. Write a function called `sleep` that awaits a given number of milliseconds before resolving
 export const sleep = () => {}
 
-// 10. Write a function called `memoize` that memoizes a function that accepts a variable number of arguments and returns it
+// 10. Write a function called `memoize` that memoizes a function that accepts a variable number of arguments and returns it.
 export const memoize = () => {}
