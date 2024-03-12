@@ -39,7 +39,7 @@ export const compact = () => {}
 export const sumValues = () => {}
 
 // 3. Write a function called `addOrRemove` that adds an item to an array if it doesn't already exist, and removes it if not.
-//    The array can be heterogeneous, but only contain primitive values.
+//    The array can contain primitive data types, but not objects or arrays.
 export const addOrRemove = () => {}
 
 // 4. Write a function called `chunk` that accepts an array and splits it into groups of length `size`. If the array can't be split evenly, the final chunk will be the remaining elements.
